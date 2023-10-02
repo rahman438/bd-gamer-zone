@@ -1,0 +1,385 @@
+@media only screen and (max-width: 1000px) {
+
+    .btn,
+    .btn2 {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    :root {
+        --margin-left-right: 35px;
+    }
+
+    nav {
+        width: 100%;
+        height: 270px;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    .nav-left img {
+        width: 44px;
+        height: 27px;
+    }
+
+    .nav-right {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .nav-left {
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .header-nav-logo {
+        font-size: 35px;
+        margin-left: 8px;
+    }
+
+    .nav-right-style {
+        width: 200px;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    .nav-right-style p {
+        margin-left: 18px;
+    }
+
+    .fa-youtube {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 12px;
+    }
+
+    .fa-tiktok {
+        font-size: 18px;
+    }
+
+    .nav-about,
+    .nav-developers {
+        margin-right: 0px;
+
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    /* nav section end from here */
+    /* banner section start from here  */
+
+    .banner-left {
+        width: 320px;
+        height: 400px;
+        border-radius: 12px;
+
+        margin: auto;
+    }
+
+    .banner-right img {
+        width: 300px;
+        height: 250px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .header-banner-section {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .banner-ti-h3 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .banner-heading-goat {
+        font-size: 65px;
+        font-weight: 800;
+    }
+
+    .banner-left p {
+        font-size: 15px;
+    }
+
+    .banner-btn button {
+        margin-top: 20px;
+    }
+
+    .we-are-gamer-section {
+        margin-top: 100px;
+        justify-content: center;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .gamer-section-right {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .gamer-section-left img {
+        margin-left: var(--margin-left-right);
+        width: 350px;
+        margin: auto;
+    }
+
+    .gamer-section-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gamer-section-right h1,
+    .Funny-videos-style {
+        font-size: 40px;
+    }
+
+    .online-game-heading h1 {
+        font-size: 40px;
+    }
+
+    .online-game-heading p {
+        margin-top: 25px;
+    }
+
+    .games-item {
+        width: 200px;
+        height: 350px;
+    }
+
+    .games-item p {
+        margin-top: 15px;
+    }
+
+    .games-item img {
+        width: 170px;
+        height: 220px;
+    }
+
+    .online-games {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 35px;
+    }
+
+    .Instantly-playing-games-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .play-games-img01 {
+        margin-left: -70px;
+        width: 250px;
+    }
+
+    .play-games-img00 {
+        width: 170px;
+        margin-bottom: -350px;
+        margin-left: 50px;
+    }
+
+    .play-games-img001 {
+        margin-right: 0px;
+        margin-left: 30px;
+        width: 270px;
+    }
+
+    .play-games-img000 {
+        width: 160px;
+        margin-top: -60px;
+        margin-left: 180px;
+    }
+
+    .play-games-left {
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .play-games-left p {
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .play-games-left h1 {
+        font-size: 45px;
+    }
+
+    .p-g-anywhere-section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .p-g-anywhere-right-section {
+        text-align: center;
+        width: 330px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .careers-section-left {
+        width: 330px;
+        color: #e7e7e7;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .careers-section {
+        background-color: #ff42a5;
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .careers-section-right img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .careers-section-left>p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 34px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .careers-section-left h1 {
+        font-size: 40px;
+    }
+
+    .careers-items1,
+    .careers-items2>p {
+        font-size: 17px;
+        font-weight: 450;
+        line-height: 30px;
+    }
+
+    .careersBtn {
+        padding: 15px;
+    }
+
+    .categoryItem {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        border: 1px solid #fff;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .categoryItem:hover {
+        border: 1px solid #fd007e;
+        color: #fd007e;
+    }
+
+    .categoryItem img {
+        width: 43px;
+        height: 43px;
+    }
+
+    .category-section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin: 50px auto 50px auto;
+    }
+
+    .categoryItem1 {
+        width: 100px;
+    }
+
+    .categoryItem2 {
+        width: 130px;
+    }
+
+    .categoryItem3 {
+        width: 110px;
+    }
+
+    .categoryItem4 {
+        width: 130px;
+    }
+
+    .categoryItem5 {
+        width: 90px;
+    }
+
+    .categoryItem6 {
+        width: 140px;
+    }
+
+    .categoryItem7 {
+        width: 155px;
+    }
+
+    .categoryItem8 {
+        width: 100px;
+    }
+
+    .categoryItem9 {
+        width: 115px;
+    }
+
+    .footer-header-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    .footer-our-service {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-our-service p {
+        margin: 15px;
+    }
+
+    .our-social-media i {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 35px;
+    }
+
+    .our-social-media {
+        display: block;
+        justify-content: center;
+    }
+
+    .icon-division1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon-division2 {
+        display: flex;
+        justify-content: center;
+    }
+}
